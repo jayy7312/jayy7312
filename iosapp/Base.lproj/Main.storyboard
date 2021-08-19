@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iosapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rku-eI-dMQ">
+                                <rect key="frame" x="32" y="558" width="347" height="188"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="188" id="lkg-Pa-7iV"/>
+                                </constraints>
+                                <string key="text">The generator can automatically include code for authentication, push, analytics and mobilefoundation.  If you did not include those capabilities and would like them, go back to the Bluemix Developer Console, add them, and generate me again.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hi!  I am a basic mobile app." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ihr-H2-anr">
+                                <rect key="frame" x="36" y="232.5" width="343" height="24.5"/>
+                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cloud Native" translatesAutoresizingMaskIntoConstraints="NO" id="rsi-SQ-Nee">
+                                <rect key="frame" x="121" y="357" width="174" height="174"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="174" id="507-Cf-VPV"/>
+                                    <constraint firstAttribute="height" constant="174" id="GMp-YI-1Ab"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I was created by the IBM Bluemix code generator." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H26-vG-TcU">
+                                <rect key="frame" x="34" y="289" width="349" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="H26-vG-TcU" secondAttribute="trailing" constant="31" id="2AY-Lc-WpL"/>
+                            <constraint firstItem="rsi-SQ-Nee" firstAttribute="top" secondItem="H26-vG-TcU" secondAttribute="bottom" constant="27" id="2zB-iA-rbQ"/>
+                            <constraint firstItem="rsi-SQ-Nee" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="1" id="9rZ-07-oY9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ihr-H2-anr" secondAttribute="trailing" constant="35" id="FaY-1W-mnc"/>
+                            <constraint firstItem="Ihr-H2-anr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="Lkq-Iz-dP5"/>
+                            <constraint firstItem="Rku-eI-dMQ" firstAttribute="top" secondItem="rsi-SQ-Nee" secondAttribute="bottom" constant="27" id="Wgq-Xq-7PI"/>
+                            <constraint firstItem="H26-vG-TcU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="34" id="c8o-oM-oRK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Rku-eI-dMQ" secondAttribute="trailing" constant="35" id="esf-BU-4Me"/>
+                            <constraint firstItem="Rku-eI-dMQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="qah-GX-dXz"/>
+                            <constraint firstItem="rsi-SQ-Nee" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-4" id="tIZ-sx-P8f"/>
+                            <constraint firstItem="H26-vG-TcU" firstAttribute="top" secondItem="Ihr-H2-anr" secondAttribute="bottom" constant="32" id="xiO-r3-Gfq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="104.46428571428571"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Cloud Native" width="1429" height="1429"/>
+    </resources>
+</document>

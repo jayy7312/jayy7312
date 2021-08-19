@@ -1,0 +1,14 @@
+
+
+xcuserdata/
+xcshareddata/
+
+*.xcscmblueprint
+*.xccheckout
+
+build/
+DerivedData/
+
+BMSCredentials.plist
+Pods/
+./Podfile.lock
